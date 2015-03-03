@@ -1,0 +1,218 @@
+
+.seccionthree{
+	width: 100%;
+	height: 950px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+    -webkit-transform: translate(-50%);
+    background-color: $color-azul;
+}
+
+.seccionthree_left{
+	width: 50%;
+	height: 950px;
+	position: absolute;
+	background-color: $color-azul;
+
+}
+.seccionthree_right{
+	width: 50%;
+	height: 950px;
+	background-color: $color-azul;
+	position:absolute;
+	right: 0px;
+	
+}
+
+/*card tarifas pequeño*/
+
+.seccionthree_card{
+	display: table;
+	position: absolute;
+	top: 140px;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+
+}
+.seccionthree_card_title{
+	display: table-cell;
+	width: 100px;
+	font-family: oswaldregular;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	background: $color-verde;
+	vertical-align: middle;
+	padding: 30px;
+	position: relative;
+
+}
+.seccionthree_card_text{
+	display: table-cell;
+	font-family: ralewaylight;
+	font-size: 12px;
+	width: 150px;
+	vertical-align: middle;
+	margin-right: 50px;
+	background: white;
+	right: 20px;
+	padding: 20px 20px 20px 25px;
+	
+	p {
+		margin: 0;
+	}
+	
+}
+
+.rombo{
+	background-color: $color-verde;
+	width: 15px;
+	height: 15px;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45eg);
+    position: absolute;
+	right: -7.5px;
+	bottom: 40%;
+
+}
+
+
+.seccionthree_boton{
+	border-radius: 3px;
+	border: 1px solid white;
+	width: 200px;
+	height: 60px;
+	top: 40px;
+	position: absolute;
+	font-family: oswaldbold;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	right: -100px;
+	z-index: 1;
+
+}
+
+
+
+/*cartel tarifas*/
+.seccionthree_price_table{
+	display:table-cell;
+	position: relative;
+	color: white;
+	left: 30px;
+	background-color: $color-negro;
+	font-family: ralewaybold;
+	font-size: 30px;
+	vertical-align: middle;
+	padding: 20px;
+	&:after,
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width:0;
+		height:0;
+		border-color:$color-azul $color-azul $color-negro $color-negro;
+		border-style:solid;
+		border-width:10px;
+	}
+	&:before {
+		bottom: 0;
+		left: 0;
+		border-color:$color-negro $color-negro $color-azul $color-azul;
+	}
+
+	p {
+		margin: 0;
+	}
+
+}
+
+.seccionthree_price_text{
+	color: white;
+	 font-family: ralewaylight;
+	 font-size: 9px;
+	 bottom: 10px;
+	 top: 5px;
+
+
+}
+.seccionthree_card_beta{
+		padding-top: 130px;
+	}
+.seccionthree_card_plan50{
+		padding-top: 260px;
+	}
+
+.seccionthree_card_4dias{
+		padding-top: 410px;
+	}
+.seccionthree_card_8dias{
+		padding-top: 540px;
+	}
+.seccionthree_card_12dias{
+		padding-top: 670px;
+	}
+
+.seccionthree_card_tardes{
+	padding-top: 130px;
+}
+.seccionthree_card_flexible{
+	padding-top: 350px;
+}
+.seccionthree_card_habitante{
+	top: 635px;
+}
+
+.seccionfour{
+	width: 100%;
+	height: 440px;
+	background-color: $color-rojo;
+	background-image: url("/images/fondo_patern.png");
+	position: relative;
+
+}
+
+.seccionfour_text{
+	width: 600px;
+	height: 350px;
+	background-color: white;
+	position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+	p {
+		font-family: ralewaylight;
+		font-size: 25px;
+		padding: 20px 50px 0px 50px;
+		text-align: center;
+	}
+}
+.seccionfour_img{
+	position: absolute;
+	left: 50%;
+	width: 120px;
+	height: 120px;
+	-webkit-transform: translate(-50%);
+	background: url(../images/corazon_uno.svg); 
+
+}
+.seccionfour_img:hover{
+	background: url(../images/corazon_dos.svg); 
+}
+
+
+
+
+
+
+
+
+
+
+

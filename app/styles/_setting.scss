@@ -1,0 +1,6 @@
+$breakpoints: (
+   "palm-vertical" "screen and (max-width: 479px)",
+   "lap"           "screen and (min-width: 720px) and (max-width: 1024px)",
+   "portable"      "screen and (max-width: 1024px)",
+   "grande"      "screen and (max-width: 1650px)",
+) !default;

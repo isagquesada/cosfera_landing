@@ -1,0 +1,45 @@
+@font-face {
+    font-family: oswaldregular;
+    src: url('font/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: oswaldbold;
+    src: url('font/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: ralewaylight;
+    src: url('font/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: ralewaybold;
+    src: url('font/Raleway-Bold.ttf');
+}
+
+$font-size-regular: 12px;
+$font-size-hello: 100px;
+
+$color-azul: rgb(52,102,204);
+$color-rojo: rgb(247,102,102);
+$color-verde: rgb(83,206,161);
+$color-negro: rgb(29,29,27);
+$color-gris: rgb(60,60,59);
+$color-grisc: rgb(237,237,237);
+
+@media only screen and (max-width: 1024px){
+	.secciontwo_image{
+		img{
+		width: 300px;
+		}
+	}
+	.secciontwo_title{
+	right: 50px;
+	font-family: oswaldbold;
+	font-size: 30px;
+	}
+	.secciontwo_description{
+	right: 500px;
+	font-family: ralewaylight;
+	font-size: 14px;
+	}
+}
+
