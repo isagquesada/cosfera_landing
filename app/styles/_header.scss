@@ -73,88 +73,64 @@
 
 /*TABLA*/
 
-.table_container{
+.seccionone{
 	display: table;
+	height: 200px;
+	position: relative;
 
 }
-.table_uno{
+.seccionone_tittle{
+	font-family: oswaldregular;
+	font-size: 14px;
+}
+.seccionone_left{
 	display: table-cell;
 	vertical-align: middle;
 	background-color: $color-azul;
-	padding: 40px;
-}
-.table_dos{
-	display: table-cell;
-	background-color: $color-rojo;
-	padding: 40px;
-}
-.table_tres{
-	display: table-cell;
-	background-color: $color-verde;
-	padding: 40px;
-}
-
-.seccionone{
-	width: 100%;
-	height:270px;
-	position: relative;
-	top: 50%;
-	left: 50%;
-    -webkit-transform: translate(-50%);
-    background-color: $color-rojo;
-}
-.seccionone_left{
-	left: 0px;
-	width: 35%;
-	height: 270px;
-	background-color: $color-azul;
-	position: absolute;
-}
-
-.seccionone_right{
-	right: 0px;
-	width: 35%;
-	height: 270px;
-	background-color: $color-verde;
-	position: absolute;
-}
-
-.seccionone_left_title, .seccionone_right_title, .seccione_centre_tiitle {
-	font-family: oswaldregular;
-	font-size: 14px;
-	color: white;
-	top: 30px;
-	left: 50%;
-	 -webkit-transform: translate(-50%);
-	position: absolute;
-}
-.seccionone_left_description, .seccionone_right_description, .seccionone_centre_description {
-	
-	width: 230px;
-	position: absolute;
+	padding: 60px;
 	font-family: ralewaylight;
 	color: white;
-	font-size: 14px;
-	top: 75px;
-	left: 50%;
-	 -webkit-transform: translate(-50%);
+	font-size: 12px;
+	width: 34%;
+	position: relative;
 }
+.seccionone_center{
+	display: table-cell;
+	background-color: $color-rojo;
+	padding: 60px;
+	font-family: ralewaylight;
+	color: white;
+	font-size: 12px;
+	width: 32%;
+	vertical-align: middle;
+	position: relative;
+}
+.seccionone_right{
+	display: table-cell;
+	background-color: $color-verde;
+	padding: 60px;
+	font-family: ralewaylight;
+	color: white;
+	font-size: 12px;
+	width: 34%;
+	vertical-align: middle;
+	position: relative;
+}
+
 .seccionone_left_button, .seccionone_right_button, .seccionone_centre_button {
 	position: absolute;
-	right: 90px;
-	border-radius: 3px;
-	border: 1px solid white;
-	width: 110px;
-	height: 40px;
-	bottom: 30px;
+	top: 80%px;
 	left: 50%;
 	 -webkit-transform: translate(-50%);
-	line-height: 40px;
+	display: block;
+	border-radius: 3px;
+	border: 1px solid white;
+	width: 120px;
+	line-height: 25px;
 	font-family: oswaldregular;
 	color: white;
 	text-align: center;
 	font-size: 10px;
-
 }
 
 
